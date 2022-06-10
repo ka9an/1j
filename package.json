@@ -1,7 +1,6 @@
 {
 		"name": "1j",
-		"version": "1.0.13",
-		
+		"version": "1.0.14",
 		"scripts": {
 				"release": "np",
 				"n": "git add . && git commit -m 0 && np patch --no-cleanup --no-tests",
