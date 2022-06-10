@@ -1,15 +1,19 @@
 {
-  "name": "1j",
-  "version": "1.0.9",
-  "scripts": {
+		"name": "1j",
+		"version": "1.0.11",
+		"scripts": {
 
-    "g": "git add . && git commit -m 0 && git push -u origin main -f"
-  },
- 
-  "main": "dist/index.js",
+				"release": "np",
+				"g": "git add . && git commit -m 0 && git push -u origin main -f"
+		},
 
-  "devDependencies": {
-   
-    
-  }
+		"main": "dist/index.js",
+
+		"devDependencies": {
+				"np": "*"
+
+		},
+		"publishConfig": {
+				"registry": "https://registry.npmjs.org"
+		}
 }

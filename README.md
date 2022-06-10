@@ -1,6 +1,4 @@
-supergeneric
-=======
-[![npm version](https://badge.fury.io/js/supergeneric.svg)](https://www.npmjs.com/package/supergeneric)
+
 
 Just a collection of my favorite bespoke functions that I manage to work into nearly every project.  Added to NPM for my convenience (and yours, if you happen to use it)!
 
