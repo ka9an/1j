@@ -1,20 +1,14 @@
 {
 		"name": "1j",
-		"version": "1.0.11",
-		  "private": true,
+		"version": "1.0.12",
+		"private": true,
 		"scripts": {
-
 				"release": "np",
 				"n": "git add . && git commit -m 0 && np patch --no-cleanup --no-tests",
 				"g": "git add . && git commit -m 0 && git push -u origin main -f"
 		},
-
 		"main": "dist/index.js",
-
-		"devDependencies": {
-				
-
-		},
+		"devDependencies": {},
 		"publishConfig": {
 				"registry": "https://registry.npmjs.org"
 		}
