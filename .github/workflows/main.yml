@@ -1,4 +1,4 @@
-on: 
+on:
   push:
     branches:
       - main
@@ -11,6 +11,15 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 12
+      - name: Convert a url
+        id: convert-to-raw-url
+        # or actioncloud/github-raw-url@master
+        uses: actioncloud/github-raw-url@v1
+        with:
+          github-url: ${{ previous-step.outputs.github-url }}
+      - name: Another step
+        with:
+          github-raw-url: ${{ convert-to-raw-url.outputs.raw-url }}
       - run: npm install
       - run: npm test
       - uses: JS-DevTools/npm-publish@v1

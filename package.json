@@ -4,13 +4,14 @@
 		"scripts": {
 
 				"release": "np",
+				"n": "git add . && git commit -m 0 && np patch",
 				"g": "git add . && git commit -m 0 && git push -u origin main -f"
 		},
 
 		"main": "dist/index.js",
 
 		"devDependencies": {
-				"np": "*"
+				
 
 		},
 		"publishConfig": {
