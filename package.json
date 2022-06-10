@@ -1,11 +1,15 @@
 {
-	"private": true,
-	
-	"scripts": {
-		
-		"g": "git add . && git commit -m \"first commit\" && git push -u origin main -f"
-	},
-	"dependencies": {
-	
-	}
+  "name": "1j",
+  "version": "1.0.8",
+  "scripts": {
+
+    "g": "git add . && git commit -m 0 && git push -u origin main -f"
+  },
+ 
+  "main": "dist/index.js",
+
+  "devDependencies": {
+   
+    "yarn-release": "latest"
+  }
 }
