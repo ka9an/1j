@@ -2,7 +2,7 @@
 
 
 
-export default async r => {
+export const inn = async r => {
 
 
 

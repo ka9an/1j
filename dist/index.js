@@ -32,4 +32,4 @@
 // export * from './sum';
 // export * from './transpose';
 //export * from './re';
-export * as inn from './in';
+export * from './inn';
