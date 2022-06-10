@@ -4,7 +4,6 @@
 .DS_STORE
 *.rdb
 .nyc_output
-.dist
-dist
+
 build
 .coveralls.yml
