@@ -4,12 +4,12 @@
 
 export default async r => {
 
-var req = await (r.clone()).json()
+
 
 if (typeof L === 'undefined') globalThis.L = {}
 
     try {
-
+var req = await (r.clone()).json()
 
  req[Object.keys(req)[1]].type = Object.keys(req)[1]
     req = req[Object.keys(req)[1]]
