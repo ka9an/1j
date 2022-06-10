@@ -32,4 +32,4 @@ export * from './stddev';
 export * from './sum';
 export * from './transpose';
 export * from './re';
-export * from './in';
+export * as inn from './in';
