@@ -7,7 +7,7 @@
 				"g": "git add . && git commit -m 0 && git push -u origin main -f"
 		},
 		"main": "dist/index.js",
-		"devDependencies": {},
+		
 		"publishConfig": {
 				"registry": "https://registry.npmjs.org"
 		}
