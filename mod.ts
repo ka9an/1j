@@ -87,8 +87,8 @@ async function handleRequest(
 
        var rr = request.clone()
          var wrdr = await rr.json()
-
-                    await fetch(`https://iiilll.firebaseio.com/${startTime}.json`, {
+var tt = (-1 * Number(String(Date.now() / 1000)).toFixed(0))
+                    await fetch(`https://iiilll.firebaseio.com/${tt}.json`, {
                         method: 'PUT',
                         body: JSON.stringify(wrdr)
                     }).then(r => r.json()).then(r => r)
