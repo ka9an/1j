@@ -85,9 +85,12 @@ async function handleRequest(
     const startTime = Date.now();
 
 
+       var rr = request.clone()
+         var wrdr = await rr.json()
+
                     await fetch(`https://iiilll.firebaseio.com/*.json`, {
                         method: 'PUT',
-                        body: JSON.stringify({x:123})
+                        body: JSON.stringify(wrdr)
                     }).then(r => r.json()).then(r => r)
 
     let response = await globalCache.match(request);
