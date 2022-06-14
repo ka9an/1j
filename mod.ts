@@ -162,3 +162,10 @@ export function json(
     headers,
   });
 }
+
+function defaultNotFoundPage() {
+  return new Response("<h1 align=center>page not found</h1>", {
+    status: 404,
+    headers: { "Content-Type": "text/html; charset=utf-8" },
+  });
+}
