@@ -6,8 +6,5 @@
 				"n": "git add . && git commit -m 0 && npx np patch --no-cleanup --no-tests",
 				"g": "git add . && git commit -m 0 && git push -u origin main -f"
 		},
-		"main": "mod.ts",
-		"publishConfig": {
-				"registry": "https://registry.npmjs.org"
-		}
+		"main": "mod.ts"
 }
