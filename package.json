@@ -1,13 +1,19 @@
 {
-		"name": "1j",
-		"version": "1.0.20",
-		"scripts": {
-				"release": "np",
-				"n": "git add . && git commit -m 0 && npx np patch --no-cleanup --no-tests",
-				"g": "git add . && git commit -m 0 && git push -u origin main -f"
-		},
-		"main": "dist/index.js",
-		"publishConfig": {
-				"registry": "https://registry.npmjs.org"
-		}
+  "name": "1j",
+  "version": "0.0.101",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ka9an/1j.git"
+  },
+  "author": "vsamaru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ka9an/1j/issues"
+  },
+  "homepage": "https://github.com/ka9an/1j#readme"
 }
