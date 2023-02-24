@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "g": "git add . && git commit -m - && git push -u origin main -f",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx release-it --increment=patch --ci"
   },
   "repository": {
     "type": "git",
