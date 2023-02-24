@@ -8,8 +8,11 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-     # - run: npm install
-    #  - run: npm test
-      - uses: JS-DevTools/npm-publish@v1
-        with:
-          token: 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
+
+
+      - name: '📛  Commit Message'
+        
+        run: |
+           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
+      
+      - run: npm test
