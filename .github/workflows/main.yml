@@ -17,3 +17,5 @@ jobs:
       - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
+env:
+  NPM_TOKEN: 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
