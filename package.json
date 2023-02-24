@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ka9an/1j.git"
@@ -17,3 +18,4 @@
   },
   "homepage": "https://github.com/ka9an/1j#readme"
 }
+
