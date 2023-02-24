@@ -9,6 +9,7 @@ import {
 } from 'itty-router-extras'
 import { withDurables } from '../../src' // from 'itty-durable'
 
+
 // export durable object class, per spec
 export { Counter } from './Counter'
 
