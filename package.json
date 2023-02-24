@@ -11,7 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/ka9an/1j.git"
   },
-  "author": "vsamaru",
+  "author": "o6",
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ka9an/1j/issues"
