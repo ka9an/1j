@@ -13,6 +13,6 @@ jobs:
       - name: '📛  Commit Message'
         
         run: |
-           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
+           echo "//registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}" > .npmrc
       
-      - run: npm test
+      - run: npx release-it --increment=patch --ci
